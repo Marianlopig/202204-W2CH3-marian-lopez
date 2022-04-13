@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="calculatorhtml.js"></script>
+    <link rel="stylesheet" href="calculatorhtml.css">
+</head>
+
+<body>
+    <h1>Calculator HTML</h1>
+    <div class="maindiv">
+        <table class="table" cellspacing="0" cellpadding="0">
+            <tr>
+                <td colspan="4"><input class="display" type="text" placeholder="0" id="display" readonly></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button class="number" type="button" onclick="onButonClicked('AC')">AC</button></td>
+                <td><button class="number" type="button" onclick="onButonClicked('R')">R</button></td>
+                <td><button class="operator" type="button" onclick="onButonClicked('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button id="id7" class="number" type="button" onclick="onButonClicked('7')">7</button></td>
+                <td><button class="number" type="button" onclick="onButonClicked('8')">8</button></td>
+                <td><button class="number" type="button" onclick="onButonClicked('9')">9</button></td>
+                <td><button class="operator" type="button" onclick="onButonClicked('*')">x</button></td>
+            </tr>
+            <tr>
+                <td><button class="number" type="button" onclick="onButonClicked('4')">4</button></td>
+                <td><button class="number" type="button" onclick="onButonClicked('5')">5</button></td>
+                <td><button class="number" type="button" onclick="onButonClicked('6')">6</button></td>
+                <td><button class="operator" type="button" onclick="onButonClicked('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="number" type="button" onclick="onButonClicked('1')">1</button></td>
+                <td><button class="number" type="button" onclick="onButonClicked('2')">2</button></td>
+                <td><button class="number" type="button" onclick="onButonClicked('3')">3</button></td>
+                <td><button class="operator" type="button" onclick="onButonClicked('+')">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button class="number" type="button" onclick="onButonClicked('0')">0</button></td>
+                <td><button class="number" type="button" onclick="onButonClicked('.')">,</button></td>
+                <td><button class="operator" type="button" onclick="onButonClicked('=')">=</button></td>
+            </tr>
+            </table>
+    </div>
+    
+</body>
+</html>
